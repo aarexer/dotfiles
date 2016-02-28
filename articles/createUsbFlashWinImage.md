@@ -18,9 +18,9 @@ If it is not in your repositories, get it here. Or alternatively, make sure lilo
 
 ###Write Windows 7 MBR on the USB stick (also works for windows 8), multiple options here:
 
-`ms-sys -7 /dev/sdb`
-or (e.g. on newer Ubuntu installs) `sudo lilo -M  /dev/sdb mbr` (info)
-or (if syslinux is installed) `sudo dd if=/usr/lib/syslinux/bios/mbr.bin of=/dev/sdb`
+* `ms-sys -7 /dev/sdb`
+* or (e.g. on newer Ubuntu installs) `sudo lilo -M  /dev/sdb mbr` (info)
+* or (if syslinux is installed) `sudo dd if=/usr/lib/syslinux/bios/mbr.bin of=/dev/sdb`
 
 ###Mount ISO and USB media:
 
@@ -36,7 +36,8 @@ or (if syslinux is installed) `sudo dd if=/usr/lib/syslinux/bios/mbr.bin of=/dev
 ...and you're done.
 
 ###Backup
-After all that, you probably want to back up your USB media for further installations and get rid of the ISO file... Just use dd: `# dd if=/dev/sdb of=/win7.img`
+After all that, you probably want to back up your USB media for further installations and get rid of the ISO file... 
+Just use dd: `# dd if=/dev/sdb of=/win7.img`
 
 and reverse if/of next time you want to put the Windows 7 installer onto USB.
 
