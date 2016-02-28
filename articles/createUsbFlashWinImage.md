@@ -1,4 +1,4 @@
-# How to create usb stick with windows on board? #
+# How to create usb stick with windows on board?
 
 OK, after unsuccessfully trying all methods mentioned here, I finally got it working. Basically, the missing step was to write a proper boot sector to the USB stick, which can be done from Linux with ms-sys or lilo -M. This works with the Windows 7 retail version.
 
@@ -37,7 +37,9 @@ If it is not in your repositories, get it here. Or alternatively, make sure lilo
 
 ###Backup
 After all that, you probably want to back up your USB media for further installations and get rid of the ISO file... 
-Just use dd: `# dd if=/dev/sdb of=/win7.img`
+
+Just use dd: 
+`# dd if=/dev/sdb of=/win7.img`
 
 and reverse if/of next time you want to put the Windows 7 installer onto USB.
 
