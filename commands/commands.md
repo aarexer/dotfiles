@@ -31,3 +31,21 @@ $ echo "rexezr"
 $ ^z
 rexer
 ```
+
+* `man hier` - Show File System Hierarchy
+
+* `fuser -k filename` - Kills a process that is locking a file.
+
+* `cat /etc/issue` - Display which distro is installed
+
+* `sed -n '10,20p' <filename>` - Print all the lines between 10 and 20 of a file
+
+* `ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'` - Graphical tree of sub-directories
+
+* `pv sourcefile > destfile` - Copy a file using pv and watch its progress
+
+* `mkdir -p a/long/directory/path` - Make directory including intermediate directories
+
+* `mkdir /home/foo/doc/bar && cd $_` - mkdir & cd into it as single command
+
+* `du -s * | sort -n | tail` - Get the 10 biggest files/folders for the current direcotry 
