@@ -49,3 +49,28 @@ rexer
 * `mkdir /home/foo/doc/bar && cd $_` - mkdir & cd into it as single command
 
 * `du -s * | sort -n | tail` - Get the 10 biggest files/folders for the current direcotry 
+
+* `find -size +100M` - show files which bigger then 100m
+
+* `stat file` - show all statistic info about file
+
+* `file f` - show info about type if file
+
+* `id` - show ids of user
+
+* `> file.txt` - clear, but doesn't delete file
+
+* `du -h -max-depth=1` - show size of subdirictories in human readable format
+
+* `tac file` - reverse cat
+
+* `nl file` - numerate lines of file
+
+* `ss` - show info about sockets
+
+* `last` - show users which logged on system
+
+* `pstree` - show all processes like tree
+
+
+
