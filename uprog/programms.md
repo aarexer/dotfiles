@@ -1,6 +1,6 @@
 ## Programms and libs which i use
 
-### In every day
+### In every day(Home usage)
 * SublimeText
 * Idea
 * PyCharm
@@ -30,7 +30,12 @@
 * lxappereance
 * skype
 
+### On Windows
+* cmder
+* 
+
 ### Need to try
 * keepassx
 * hipchat
 * vbox
+* deadbeef
