@@ -1,4 +1,7 @@
 ## Aliases in my system
+#### To use bash completion
+* Copy this [bash-completion](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
+* Add source bash-completion to your bash_profile
 
 #### /etc/profile
 ```sh
@@ -7,7 +10,8 @@ alias ls='ls --color=auto
 
 #### ~/.bash_profile
 ```sh
-alias ll='ls -l
+source /etc/bash_completion.d/git-completion.bash
+alias ll='ls -l'
 ```
 
 #### ~/.gitconfig
