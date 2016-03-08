@@ -1,7 +1,26 @@
-# Aliases in my syste
+## Aliases in my system
 
-## /etc/profile
-'alias ls='ls --color=auto'`
+### /etc/profile
+```sh
+alias ls='ls --color=auto
+```
 
-## ~/.bash_profile
-`alias ll='ls -l'`
+### ~/.bash_profile
+```sh
+alias ll='ls -l
+```
+
+### ~/.gitconfig
+```sh
+[user]
+        name = Aleksandr Kuchuk
+        email = myEmail
+
+[alias]
+      l = log
+      a = add
+      cm = commit -m
+      co = checkout
+      f = fetch
+      m = merge
+```
