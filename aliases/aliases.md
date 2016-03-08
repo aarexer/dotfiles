@@ -1,17 +1,18 @@
 ## Aliases in my system
 
-### /etc/profile
+#### /etc/profile
 ```sh
 alias ls='ls --color=auto
 ```
 
-### ~/.bash_profile
+#### ~/.bash_profile
 ```sh
 alias ll='ls -l
 ```
 
-### ~/.gitconfig
+#### ~/.gitconfig
 ```sh
+
 [user]
         name = Aleksandr Kuchuk
         email = myEmail
