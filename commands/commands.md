@@ -72,5 +72,5 @@ rexer
 
 * `pstree` - show all processes like tree
 
-
+* `ssh [user]@[server] '[command]'` - run remote command on server by user
 
