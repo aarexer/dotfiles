@@ -74,3 +74,20 @@ rexer
 
 * `ssh [user]@[server] '[command]'` - run remote command on server by user
 
+* `strace` - debug programm
+
+* `getconf LONG_BIT` - 64 or 32 bit system
+
+* `command | convert label:@- /path/name.png` - save output of `command` in png format
+
+* `host`, `dig` - commands for dns searching
+
+* `bind -p` - show all keyboard binding
+
+* `find . -user user_name` - find all files for user_name(owner)
+
+* `find -size +100M` - find all files which are bigger than 100M in current dir
+
+
+
+
