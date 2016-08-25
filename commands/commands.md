@@ -88,6 +88,6 @@ rexer
 
 * `find -size +100M` - find all files which are bigger than 100M in current dir
 
-
+* `ps aux` - all process info
 
 
