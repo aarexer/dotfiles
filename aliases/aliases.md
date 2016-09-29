@@ -29,3 +29,14 @@ alias ll='ls -l'
       f = fetch
       m = merge
 ```
+#### On Mac
+1. Install homebrew
+
+2. Install Git and bash-completion: brew install git && brew install bash-completion (Note: If this install fails with a 404 error, and you already have git installed, just remove the git part of this brew install)
+
+3. Add bash-completion to your .bash_profile:
+```sh
+  if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+  fi
+```
