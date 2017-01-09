@@ -1,41 +1,59 @@
-## Programms and libs which i use
-
-### In every day(Home usage)
-* SublimeText
-* Idea
-* PyCharm
-* yandex-disc
-* chrome
-* vlc
-* evince
-* remmina
-* file-roller
-* mc
-* pcmanfm
-* libreoffice
-* htop
-* mtr
-* vim
-* mutt
-* cmus
-* pidgin
+## Programms in categories
+### Text Editors
+* sublimetext
 * atom
-* gradle/maven
-* feh
+* vim
+### IDE
+* idea
+* pycharm
+
+### Web-browsers
+* chrome
+* firefox
 * qutebrowser
-* alsa
+
+### Clouds
+* yandex-disc
+
+### Multimedia
+* vlc
+* cmus
+
+### Chat
+* pidgin
+* slack
+* skype
+* telegram
+* mutt
+
+### CVS
 * git
-* ms-fonts
+* svn
+
+### Monitoring
+* htop
+
+### filecommander
+* pcmanfm
+* mc
+
+### rar
+* file-roller
+
+### readers
+* evince
+* djavu
+
+### utils
+* mtr
+* remmina
 * arandr
 * lxappereance
-* skype
+* feh
 
-### On Windows
+### Emulators
 * cmder
-* 
 
 ### Need to try
 * keepassx
-* hipchat
-* vbox
 * deadbeef

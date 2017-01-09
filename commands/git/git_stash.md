@@ -1,4 +1,4 @@
-vk## Stash and Shelve in Git
+## Stash and Shelve in Git
 При необходимости спрятать свои изменения на некоторое время можно воспользоваться stash или shelve.
 #### Stash
 `git stash` - спрятать изменения.
